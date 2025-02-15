@@ -1,71 +1,71 @@
 # MyKeys
 
-一个简洁、安全的密码管理应用，支持 macOS 和 iOS 平台。
+![](./MyKeys/Assets.xcassets/AppIcon.appiconset/icon_128x128.png)
 
 A simple and secure password management application for macOS and iOS.
 
-## 功能特性 | Features
+## Features
 
-- 📱 跨平台支持：同时支持 macOS 和 iOS 设备
-- 🔐 安全存储：使用 SwiftData 安全存储密码信息
-- 📂 分类管理：支持对密码进行分类整理
-- 🔍 快速查找：通过分类快速定位密码信息
-- 📝 备注功能：支持为每个密码添加备注说明
-- 🖱️ 便捷操作：支持文本快速选择和复制
+- 📱 Cross-platform Support: Available on both macOS and iOS devices
+- 🔐 Secure Storage: Using SwiftData for secure password storage
+- 📂 Category Management: Organize passwords by categories
+- 🔍 Quick Search: Quickly locate password information through categories
+- 📝 Notes Feature: Add notes to each password entry
+- 🖱️ Convenient Operations: Support quick text selection and copying
 
-## 系统要求 | Requirements
+## Requirements
 
-- macOS 14.0 或更高版本
-- iOS 17.0 或更高版本
-- Xcode 15.0 或更高版本（用于构建）
+- macOS 14.0 or higher
+- iOS 17.0 or higher
+- Xcode 15.0 or higher (for building)
 
-## 技术栈 | Tech Stack
+## Tech Stack
 
-- SwiftUI - 用户界面框架
-- SwiftData - 数据持久化
-- Swift - 开发语言
+- SwiftUI - User Interface Framework
+- SwiftData - Data Persistence
+- Swift - Development Language
 
-## 开发环境设置 | Development Setup
+## Development Setup
 
-1. 克隆仓库：
+1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/MyKeys.git
+git clone https://github.com/wflixu/MyKeys.git
 ```
 
-2. 使用 Xcode 打开项目：
+2. Open the project with Xcode:
 ```bash
 cd MyKeys
 open MyKeys.xcodeproj
 ```
 
-3. 选择目标设备（macOS/iOS）并运行项目
+3. Select target device (macOS/iOS) and run the project
 
-## 使用说明 | Usage
+## Usage
 
-1. 添加新密码
-   - 点击 "+" 按钮
-   - 填写网站/标签、用户名和密码信息
-   - 可选择添加备注
-   - 选择或创建分类
-   - 点击"存储"保存
+1. Add New Password
+   - Click the "+" button
+   - Fill in website/tag, username, and password information
+   - Optionally add notes
+   - Select or create a category
+   - Click "Save" to store
 
-2. 查看密码
-   - 在左侧选择分类
-   - 在中间列表选择具体项目
-   - 在右侧查看详细信息
+2. View Passwords
+   - Select a category from the left sidebar
+   - Choose a specific item from the middle list
+   - View details on the right panel
 
-3. 管理分类
-   - 添加新密码时可创建新分类
-   - 通过左侧边栏浏览所有分类
+3. Manage Categories
+   - Create new categories when adding passwords
+   - Browse all categories through the left sidebar
 
-## 许可证 | License
+## License
 
 [MIT License](LICENSE)
 
-## 贡献 | Contributing
+## Contributing
 
-欢迎提交 Issue 和 Pull Request！
+Issues and Pull Requests are welcome!
 
-## 联系方式 | Contact
+## Contact
 
-如有问题或建议，请提交 Issue 或联系项目维护者。
+For questions or suggestions, please submit an Issue or contact the project maintainer.
